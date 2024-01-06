@@ -1,0 +1,40 @@
+19:20:34.168 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+19:20:34.463 [main] INFO  - Starting Application using Java 19.0.2 with PID 5875 (/Users/admin/Desktop/project/spring-hotel/build/classes/java/main started by admin in /Users/admin/Desktop/project/spring-hotel)
+19:20:34.465 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+19:20:39.127 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+19:20:39.278 [main] INFO  - Finished Spring Data repository scanning in 127 ms. Found 0 Reactive Cassandra repository interfaces.
+19:20:39.292 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+19:20:39.339 [main] INFO  - Finished Spring Data repository scanning in 47 ms. Found 1 Cassandra repository interfaces.
+19:20:41.001 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+19:20:41.035 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+19:20:41.046 [main] INFO  - Starting service [Tomcat]
+19:20:41.047 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+19:20:41.325 [main] INFO  - Initializing Spring embedded WebApplicationContext
+19:20:41.327 [main] INFO  - Root WebApplicationContext: initialization completed in 6637 ms
+19:20:43.202 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+19:20:45.151 [s0-admin-0] INFO  - Using native clock for microsecond precision
+19:20:46.331 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+19:20:46.891 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+19:20:49.041 [main] WARN  - 
+
+Using generated security password: f316f835-01f0-4bb3-9cfc-fd9b3d27df2d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+19:20:49.530 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76eadc5a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e9d7366, org.springframework.security.web.context.SecurityContextHolderFilter@45d46254, org.springframework.security.web.header.HeaderWriterFilter@6ef4297d, org.springframework.web.filter.CorsFilter@20914835, org.springframework.security.web.authentication.logout.LogoutFilter@6b289535, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@460e5ffe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@620572db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@615c4ea4, org.springframework.security.web.access.ExceptionTranslationFilter@27a0e6ce, org.springframework.security.web.access.intercept.AuthorizationFilter@70805849]
+19:20:51.053 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+19:20:51.649 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+19:20:51.688 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+19:20:51.868 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+19:20:51.869 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+19:20:51.870 [main] INFO  - Starting service [Tomcat]
+19:20:51.871 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+19:20:51.893 [main] INFO  - Initializing Spring embedded WebApplicationContext
+19:20:51.893 [main] INFO  - Root WebApplicationContext: initialization completed in 199 ms
+19:20:51.916 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+19:20:51.996 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+19:20:52.004 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+19:20:52.035 [main] INFO  - Started Application in 19.899 seconds (process running for 23.78)
+19:22:05.919 [http-nio-8080-exec-2] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:22:05.922 [http-nio-8080-exec-2] INFO  - Initializing Servlet 'dispatcherServlet'
+19:22:05.943 [http-nio-8080-exec-2] INFO  - Completed initialization in 21 ms

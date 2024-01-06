@@ -1,0 +1,566 @@
+12:58:39.318 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+12:58:39.797 [main] INFO  - Starting Application using Java 19.0.2 with PID 3249 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+12:58:39.806 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+12:58:43.803 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+12:58:43.926 [main] INFO  - Finished Spring Data repository scanning in 112 ms. Found 0 Reactive Cassandra repository interfaces.
+12:58:43.950 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+12:58:44.081 [main] INFO  - Finished Spring Data repository scanning in 130 ms. Found 1 Cassandra repository interfaces.
+12:58:45.519 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+12:58:45.597 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+12:58:45.605 [main] INFO  - Starting service [Tomcat]
+12:58:45.606 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12:58:45.891 [main] INFO  - Initializing Spring embedded WebApplicationContext
+12:58:45.891 [main] INFO  - Root WebApplicationContext: initialization completed in 5843 ms
+12:58:47.750 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+12:58:49.494 [s0-admin-0] INFO  - Using native clock for microsecond precision
+12:58:50.361 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+12:58:51.144 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+12:58:53.155 [main] WARN  - 
+
+Using generated security password: a7123d60-680e-4739-9ab9-bde519f3d6db
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+12:58:54.194 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38c55a8a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d7f7962, org.springframework.security.web.context.SecurityContextHolderFilter@37e491e2, org.springframework.security.web.header.HeaderWriterFilter@c2e33, org.springframework.web.filter.CorsFilter@32d1d6c5, org.springframework.security.web.authentication.logout.LogoutFilter@58b3eb1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26679788, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41ec4271, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a5b38e6, org.springframework.security.web.access.ExceptionTranslationFilter@7805478c, org.springframework.security.web.access.intercept.AuthorizationFilter@5e8bd498]
+12:58:55.961 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+12:58:56.604 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+12:58:56.660 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+12:58:56.859 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+12:58:56.861 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+12:58:56.862 [main] INFO  - Starting service [Tomcat]
+12:58:56.862 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12:58:56.918 [main] INFO  - Initializing Spring embedded WebApplicationContext
+12:58:56.918 [main] INFO  - Root WebApplicationContext: initialization completed in 248 ms
+12:58:56.938 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+12:58:57.020 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+12:58:57.024 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+12:58:57.048 [main] INFO  - Started Application in 21.632 seconds (process running for 25.048)
+12:58:58.025 [RMI TCP Connection(2)-192.168.0.12] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:58:58.026 [RMI TCP Connection(2)-192.168.0.12] INFO  - Initializing Servlet 'dispatcherServlet'
+12:58:58.030 [RMI TCP Connection(2)-192.168.0.12] INFO  - Completed initialization in 3 ms
+13:07:12.642 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+13:07:12.939 [main] INFO  - Starting Application using Java 19.0.2 with PID 3339 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+13:07:12.941 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+13:07:16.552 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+13:07:16.624 [main] INFO  - Finished Spring Data repository scanning in 58 ms. Found 0 Reactive Cassandra repository interfaces.
+13:07:16.632 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+13:07:16.665 [main] INFO  - Finished Spring Data repository scanning in 32 ms. Found 1 Cassandra repository interfaces.
+13:07:18.195 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+13:07:18.237 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+13:07:18.244 [main] INFO  - Starting service [Tomcat]
+13:07:18.245 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+13:07:18.654 [main] INFO  - Initializing Spring embedded WebApplicationContext
+13:07:18.666 [main] INFO  - Root WebApplicationContext: initialization completed in 5475 ms
+13:07:20.737 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+13:07:22.645 [s0-admin-0] INFO  - Using native clock for microsecond precision
+13:07:23.443 [s0-admin-1] WARN  - [s0] Error connecting to Node(endPoint=/127.0.0.1:9042, hostId=null, hashCode=5336dd7b), trying next node (ConnectionInitException: [s0|control|connecting...] Protocol initialization request, step 1 (OPTIONS): failed to send request (io.netty.channel.StacklessClosedChannelException))
+13:07:25.575 [main] WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/admin/backend-delivery/build/classes/java/main/ru/cft/shift/intensive/template/controller/UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'usersServiceImpl' defined in file [/Users/admin/backend-delivery/build/classes/java/main/ru/cft/shift/intensive/template/service/impl/UsersServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'usersRepository' defined in ru.cft.shift.intensive.template.repository.UsersRepository defined in @EnableCassandraRepositories declared on CassandraRepositoriesRegistrar.EnableCassandraRepositoriesConfiguration: Cannot resolve reference to bean 'cassandraTemplate' while setting bean property 'cassandraTemplate'
+13:07:25.580 [main] INFO  - Stopping service [Tomcat]
+13:07:25.616 [main] INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+13:07:25.722 [main] ERROR - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/admin/backend-delivery/build/classes/java/main/ru/cft/shift/intensive/template/controller/UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'usersServiceImpl' defined in file [/Users/admin/backend-delivery/build/classes/java/main/ru/cft/shift/intensive/template/service/impl/UsersServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'usersRepository' defined in ru.cft.shift.intensive.template.repository.UsersRepository defined in @EnableCassandraRepositories declared on CassandraRepositoriesRegistrar.EnableCassandraRepositoriesConfiguration: Cannot resolve reference to bean 'cassandraTemplate' while setting bean property 'cassandraTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at ru.cft.shift.intensive.template.Application.main(Application.java:9)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersServiceImpl' defined in file [/Users/admin/backend-delivery/build/classes/java/main/ru/cft/shift/intensive/template/service/impl/UsersServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'usersRepository' defined in ru.cft.shift.intensive.template.repository.UsersRepository defined in @EnableCassandraRepositories declared on CassandraRepositoriesRegistrar.EnableCassandraRepositoriesConfiguration: Cannot resolve reference to bean 'cassandraTemplate' while setting bean property 'cassandraTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'usersRepository' defined in ru.cft.shift.intensive.template.repository.UsersRepository defined in @EnableCassandraRepositories declared on CassandraRepositoriesRegistrar.EnableCassandraRepositoriesConfiguration: Cannot resolve reference to bean 'cassandraTemplate' while setting bean property 'cassandraTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.data.cassandra.CassandraDataAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cassandraSession' defined in class path resource [org/springframework/boot/autoconfigure/cassandra/CassandraAutoConfiguration.class]: Failed to instantiate [com.datastax.oss.driver.api.core.CqlSession]: Factory method 'cassandraSession' threw exception with message: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=/127.0.0.1:9042, hostId=null, hashCode=5336dd7b): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|connecting...] Protocol initialization request, step 1 (OPTIONS): failed to send request (io.netty.channel.StacklessClosedChannelException)]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cassandraSession' defined in class path resource [org/springframework/boot/autoconfigure/cassandra/CassandraAutoConfiguration.class]: Failed to instantiate [com.datastax.oss.driver.api.core.CqlSession]: Factory method 'cassandraSession' threw exception with message: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=/127.0.0.1:9042, hostId=null, hashCode=5336dd7b): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|connecting...] Protocol initialization request, step 1 (OPTIONS): failed to send request (io.netty.channel.StacklessClosedChannelException)]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 66 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.datastax.oss.driver.api.core.CqlSession]: Factory method 'cassandraSession' threw exception with message: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=/127.0.0.1:9042, hostId=null, hashCode=5336dd7b): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|connecting...] Protocol initialization request, step 1 (OPTIONS): failed to send request (io.netty.channel.StacklessClosedChannelException)]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 80 common frames omitted
+Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not reach any contact point, make sure you've provided valid addresses (showing first 1 nodes, use getAllErrors() for more): Node(endPoint=/127.0.0.1:9042, hostId=null, hashCode=5336dd7b): [com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|connecting...] Protocol initialization request, step 1 (OPTIONS): failed to send request (io.netty.channel.StacklessClosedChannelException)]
+	at com.datastax.oss.driver.api.core.AllNodesFailedException.copy(AllNodesFailedException.java:141)
+	at com.datastax.oss.driver.internal.core.util.concurrent.CompletableFutures.getUninterruptibly(CompletableFutures.java:149)
+	at com.datastax.oss.driver.api.core.session.SessionBuilder.build(SessionBuilder.java:835)
+	at org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration.cassandraSession(CassandraAutoConfiguration.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 81 common frames omitted
+	Suppressed: com.datastax.oss.driver.api.core.connection.ConnectionInitException: [s0|control|connecting...] Protocol initialization request, step 1 (OPTIONS): failed to send request (io.netty.channel.StacklessClosedChannelException)
+		at com.datastax.oss.driver.internal.core.channel.ProtocolInitHandler$InitRequest.fail(ProtocolInitHandler.java:356)
+		at com.datastax.oss.driver.internal.core.channel.ChannelHandlerRequest.writeListener(ChannelHandlerRequest.java:87)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+		at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+		at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+		at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+		at com.datastax.oss.driver.internal.core.channel.ChannelHandlerRequest.send(ChannelHandlerRequest.java:76)
+		at com.datastax.oss.driver.internal.core.channel.ProtocolInitHandler$InitRequest.send(ProtocolInitHandler.java:193)
+		at com.datastax.oss.driver.internal.core.channel.ProtocolInitHandler.onRealConnect(ProtocolInitHandler.java:124)
+		at com.datastax.oss.driver.internal.core.channel.ConnectInitHandler.lambda$connect$0(ConnectInitHandler.java:57)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+		Suppressed: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9042
+		Caused by: java.net.ConnectException: Connection refused
+			at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+			at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+			at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973)
+			at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+			at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+			at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+			at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+			at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+			at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+			at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+			at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+			at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+			at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: io.netty.channel.StacklessClosedChannelException: null
+		at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0()(Unknown Source)
+13:11:20.423 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+13:11:20.784 [main] INFO  - Starting Application using Java 19.0.2 with PID 3387 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+13:11:20.785 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+13:11:25.148 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+13:11:25.234 [main] INFO  - Finished Spring Data repository scanning in 76 ms. Found 0 Reactive Cassandra repository interfaces.
+13:11:25.243 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+13:11:25.275 [main] INFO  - Finished Spring Data repository scanning in 32 ms. Found 1 Cassandra repository interfaces.
+13:11:26.866 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+13:11:26.917 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+13:11:26.920 [main] INFO  - Starting service [Tomcat]
+13:11:26.920 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+13:11:27.415 [main] INFO  - Initializing Spring embedded WebApplicationContext
+13:11:27.418 [main] INFO  - Root WebApplicationContext: initialization completed in 6374 ms
+13:11:29.321 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+13:11:31.217 [s0-admin-0] INFO  - Using native clock for microsecond precision
+13:11:32.241 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+13:11:33.003 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+13:11:35.006 [main] WARN  - 
+
+Using generated security password: 5be68fa7-ddb9-4891-a95a-1f64ea0e660a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+13:11:35.658 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@615c4ea4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@417446d9, org.springframework.security.web.context.SecurityContextHolderFilter@1a4cbcc6, org.springframework.security.web.header.HeaderWriterFilter@45d46254, org.springframework.web.filter.CorsFilter@34070bd2, org.springframework.security.web.authentication.logout.LogoutFilter@1d7f7962, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56402642, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5358c8fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e7d3d87, org.springframework.security.web.access.ExceptionTranslationFilter@4c000cc4, org.springframework.security.web.access.intercept.AuthorizationFilter@6b4fd7d]
+13:11:37.074 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+13:11:37.896 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+13:11:37.948 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+13:11:38.178 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+13:11:38.181 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+13:11:38.182 [main] INFO  - Starting service [Tomcat]
+13:11:38.182 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+13:11:38.294 [main] INFO  - Initializing Spring embedded WebApplicationContext
+13:11:38.295 [main] INFO  - Root WebApplicationContext: initialization completed in 341 ms
+13:11:38.319 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+13:11:38.463 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+13:11:38.468 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+13:11:38.529 [main] INFO  - Started Application in 20.182 seconds (process running for 23.142)
+14:52:04.032 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+14:52:04.621 [main] INFO  - Starting Application using Java 19.0.2 with PID 4105 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+14:52:04.623 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+14:52:09.165 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+14:52:09.243 [main] INFO  - Finished Spring Data repository scanning in 67 ms. Found 0 Reactive Cassandra repository interfaces.
+14:52:09.252 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+14:52:09.280 [main] INFO  - Finished Spring Data repository scanning in 27 ms. Found 1 Cassandra repository interfaces.
+14:52:10.667 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+14:52:10.699 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+14:52:10.707 [main] INFO  - Starting service [Tomcat]
+14:52:10.708 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+14:52:11.064 [main] INFO  - Initializing Spring embedded WebApplicationContext
+14:52:11.072 [main] INFO  - Root WebApplicationContext: initialization completed in 5560 ms
+14:52:13.113 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+14:52:14.973 [s0-admin-0] INFO  - Using native clock for microsecond precision
+14:52:16.106 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+14:52:17.073 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+14:52:19.206 [main] WARN  - 
+
+Using generated security password: 6c7ac67b-2af7-4525-80ad-c82c79ab684d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+14:52:19.780 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@49925d21, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11170228, org.springframework.security.web.context.SecurityContextHolderFilter@35d114f4, org.springframework.security.web.header.HeaderWriterFilter@11e24688, org.springframework.web.filter.CorsFilter@46ee7013, org.springframework.security.web.authentication.logout.LogoutFilter@460e5ffe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4be460e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c2e33, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d58731, org.springframework.security.web.access.ExceptionTranslationFilter@28e91f6d, org.springframework.security.web.access.intercept.AuthorizationFilter@6c1bebca]
+14:52:21.020 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+14:52:21.711 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+14:52:21.745 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+14:52:21.963 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+14:52:21.965 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+14:52:21.967 [main] INFO  - Starting service [Tomcat]
+14:52:21.968 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+14:52:22.002 [main] INFO  - Initializing Spring embedded WebApplicationContext
+14:52:22.002 [main] INFO  - Root WebApplicationContext: initialization completed in 240 ms
+14:52:22.023 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+14:52:22.110 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+14:52:22.118 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+14:52:22.143 [main] INFO  - Started Application in 20.78 seconds (process running for 24.092)
+14:52:23.041 [RMI TCP Connection(3)-192.168.0.12] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:52:23.041 [RMI TCP Connection(3)-192.168.0.12] INFO  - Initializing Servlet 'dispatcherServlet'
+14:52:23.045 [RMI TCP Connection(3)-192.168.0.12] INFO  - Completed initialization in 4 ms
+15:42:43.962 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+15:42:44.112 [main] INFO  - Starting Application using Java 19.0.2 with PID 4431 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+15:42:44.114 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+15:42:47.590 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+15:42:47.647 [main] INFO  - Finished Spring Data repository scanning in 42 ms. Found 0 Reactive Cassandra repository interfaces.
+15:42:47.652 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+15:42:47.677 [main] INFO  - Finished Spring Data repository scanning in 25 ms. Found 1 Cassandra repository interfaces.
+15:42:48.876 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+15:42:48.919 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+15:42:48.921 [main] INFO  - Starting service [Tomcat]
+15:42:48.921 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+15:42:49.227 [main] INFO  - Initializing Spring embedded WebApplicationContext
+15:42:49.231 [main] INFO  - Root WebApplicationContext: initialization completed in 4932 ms
+15:42:50.878 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+15:42:52.571 [s0-admin-0] INFO  - Using native clock for microsecond precision
+15:42:53.444 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+15:42:53.908 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+15:42:55.689 [main] WARN  - 
+
+Using generated security password: 96525c5a-93d7-4fcd-a883-fb7223c331b7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+15:42:56.163 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72237be8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c5f12e, org.springframework.security.web.context.SecurityContextHolderFilter@5358c8fa, org.springframework.security.web.header.HeaderWriterFilter@620572db, org.springframework.web.filter.CorsFilter@23f8036d, org.springframework.security.web.authentication.logout.LogoutFilter@115ef673, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58b3eb1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2986427e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68f69ca3, org.springframework.security.web.access.ExceptionTranslationFilter@7cecab19, org.springframework.security.web.access.intercept.AuthorizationFilter@2567c091]
+15:42:57.197 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+15:42:57.729 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+15:42:57.758 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+15:42:57.927 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+15:42:57.928 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+15:42:57.928 [main] INFO  - Starting service [Tomcat]
+15:42:57.929 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+15:42:58.080 [main] INFO  - Initializing Spring embedded WebApplicationContext
+15:42:58.080 [main] INFO  - Root WebApplicationContext: initialization completed in 315 ms
+15:42:58.101 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+15:42:58.158 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+15:42:58.161 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+15:42:58.182 [main] INFO  - Started Application in 15.598 seconds (process running for 17.885)
+16:57:22.134 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+16:57:22.395 [main] INFO  - Starting Application using Java 19.0.2 with PID 5015 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+16:57:22.396 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+16:57:25.892 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+16:57:25.956 [main] INFO  - Finished Spring Data repository scanning in 54 ms. Found 0 Reactive Cassandra repository interfaces.
+16:57:25.964 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+16:57:25.991 [main] INFO  - Finished Spring Data repository scanning in 26 ms. Found 1 Cassandra repository interfaces.
+16:57:27.362 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+16:57:27.403 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+16:57:27.411 [main] INFO  - Starting service [Tomcat]
+16:57:27.411 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+16:57:27.837 [main] INFO  - Initializing Spring embedded WebApplicationContext
+16:57:27.840 [main] INFO  - Root WebApplicationContext: initialization completed in 5279 ms
+16:57:29.931 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+16:57:31.852 [s0-admin-0] INFO  - Using native clock for microsecond precision
+16:57:32.816 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+16:57:33.501 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+16:57:35.237 [main] WARN  - 
+
+Using generated security password: 440be771-9152-4083-bf36-8c9573486b48
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+16:57:35.734 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e3566e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b058bfd, org.springframework.security.web.context.SecurityContextHolderFilter@78743dd8, org.springframework.security.web.header.HeaderWriterFilter@1a02ebe0, org.springframework.web.filter.CorsFilter@4805069b, org.springframework.security.web.authentication.logout.LogoutFilter@e895e3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2986427e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26c6288d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14ca88bc, org.springframework.security.web.access.ExceptionTranslationFilter@47d9c01, org.springframework.security.web.access.intercept.AuthorizationFilter@6fc7e828]
+16:57:36.825 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+16:57:37.343 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+16:57:37.377 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+16:57:37.570 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+16:57:37.571 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+16:57:37.571 [main] INFO  - Starting service [Tomcat]
+16:57:37.572 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+16:57:37.699 [main] INFO  - Initializing Spring embedded WebApplicationContext
+16:57:37.700 [main] INFO  - Root WebApplicationContext: initialization completed in 310 ms
+16:57:37.726 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+16:57:37.795 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+16:57:37.800 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+16:57:37.851 [main] INFO  - Started Application in 17.356 seconds (process running for 19.338)
+16:57:51.976 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+16:57:52.188 [main] INFO  - Starting Application using Java 19.0.2 with PID 5022 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+16:57:52.191 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+16:57:55.018 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+16:57:55.084 [main] INFO  - Finished Spring Data repository scanning in 50 ms. Found 0 Reactive Cassandra repository interfaces.
+16:57:55.089 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+16:57:55.113 [main] INFO  - Finished Spring Data repository scanning in 23 ms. Found 1 Cassandra repository interfaces.
+16:57:56.493 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+16:57:56.521 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+16:57:56.523 [main] INFO  - Starting service [Tomcat]
+16:57:56.524 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+16:57:56.858 [main] INFO  - Initializing Spring embedded WebApplicationContext
+16:57:56.858 [main] INFO  - Root WebApplicationContext: initialization completed in 4507 ms
+16:57:58.157 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+16:57:59.480 [s0-admin-0] INFO  - Using native clock for microsecond precision
+16:58:00.117 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+16:58:00.562 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+16:58:01.757 [main] WARN  - 
+
+Using generated security password: 384a9a92-5611-4fad-98c9-1cd13b38e460
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+16:58:02.135 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@74619273, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38c55a8a, org.springframework.security.web.context.SecurityContextHolderFilter@63f3366a, org.springframework.security.web.header.HeaderWriterFilter@6807989e, org.springframework.web.filter.CorsFilter@1d7f7962, org.springframework.security.web.authentication.logout.LogoutFilter@1a02ebe0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56f84c9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bad555b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32d1d6c5, org.springframework.security.web.access.ExceptionTranslationFilter@454e9d65, org.springframework.security.web.access.intercept.AuthorizationFilter@a7ae340]
+16:58:03.043 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+16:58:03.470 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+16:58:03.504 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+16:58:03.620 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+16:58:03.621 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+16:58:03.622 [main] INFO  - Starting service [Tomcat]
+16:58:03.622 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+16:58:03.759 [main] INFO  - Initializing Spring embedded WebApplicationContext
+16:58:03.759 [main] INFO  - Root WebApplicationContext: initialization completed in 249 ms
+16:58:03.779 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+16:58:03.843 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+16:58:03.847 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+16:58:03.883 [main] INFO  - Started Application in 12.981 seconds (process running for 14.518)
+16:58:04.452 [RMI TCP Connection(3)-192.168.0.12] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:58:04.452 [RMI TCP Connection(3)-192.168.0.12] INFO  - Initializing Servlet 'dispatcherServlet'
+16:58:04.456 [RMI TCP Connection(3)-192.168.0.12] INFO  - Completed initialization in 4 ms
+17:04:29.056 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+17:04:29.227 [main] INFO  - Starting Application using Java 19.0.2 with PID 5066 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+17:04:29.232 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+17:04:32.676 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+17:04:32.760 [main] INFO  - Finished Spring Data repository scanning in 70 ms. Found 0 Reactive Cassandra repository interfaces.
+17:04:32.767 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+17:04:32.795 [main] INFO  - Finished Spring Data repository scanning in 27 ms. Found 1 Cassandra repository interfaces.
+17:04:33.986 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+17:04:34.016 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+17:04:34.024 [main] INFO  - Starting service [Tomcat]
+17:04:34.025 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:04:34.379 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:04:34.383 [main] INFO  - Root WebApplicationContext: initialization completed in 4981 ms
+17:04:36.229 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+17:04:38.042 [s0-admin-0] INFO  - Using native clock for microsecond precision
+17:04:38.897 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:04:39.403 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:04:40.933 [main] WARN  - 
+
+Using generated security password: 021eeb3e-dd14-4799-a241-3c73220603fe
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+17:04:41.373 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3af39e7b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f6ff62, org.springframework.security.web.context.SecurityContextHolderFilter@49f2646, org.springframework.security.web.header.HeaderWriterFilter@5e8bd498, org.springframework.web.filter.CorsFilter@1c62d2ad, org.springframework.security.web.authentication.logout.LogoutFilter@26a9c6df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c048b30, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11170228, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@651caa2e, org.springframework.security.web.access.ExceptionTranslationFilter@35cbeb54, org.springframework.security.web.access.intercept.AuthorizationFilter@68f69ca3]
+17:04:42.460 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+17:04:43.020 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+17:04:43.048 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+17:04:43.228 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+17:04:43.230 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+17:04:43.231 [main] INFO  - Starting service [Tomcat]
+17:04:43.232 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:04:43.370 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:04:43.370 [main] INFO  - Root WebApplicationContext: initialization completed in 314 ms
+17:04:43.406 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:04:43.492 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+17:04:43.499 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+17:04:43.529 [main] INFO  - Started Application in 15.883 seconds (process running for 17.874)
+17:05:33.229 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+17:05:33.642 [main] INFO  - Starting Application using Java 19.0.2 with PID 5086 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+17:05:33.647 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+17:05:38.138 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+17:05:38.231 [main] INFO  - Finished Spring Data repository scanning in 79 ms. Found 0 Reactive Cassandra repository interfaces.
+17:05:38.241 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+17:05:38.294 [main] INFO  - Finished Spring Data repository scanning in 52 ms. Found 1 Cassandra repository interfaces.
+17:05:39.667 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+17:05:39.692 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+17:05:39.701 [main] INFO  - Starting service [Tomcat]
+17:05:39.701 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:05:40.095 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:05:40.097 [main] INFO  - Root WebApplicationContext: initialization completed in 6127 ms
+17:05:41.994 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+17:05:44.323 [s0-admin-0] INFO  - Using native clock for microsecond precision
+17:05:45.423 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:05:46.275 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:05:47.991 [main] WARN  - 
+
+Using generated security password: 5c901852-1af0-473f-969f-a27308419279
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+17:05:48.430 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e76a66f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72237be8, org.springframework.security.web.context.SecurityContextHolderFilter@47d9c01, org.springframework.security.web.header.HeaderWriterFilter@56402642, org.springframework.web.filter.CorsFilter@5c5f12e, org.springframework.security.web.authentication.logout.LogoutFilter@2d172c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a02ebe0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@752494dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23f8036d, org.springframework.security.web.access.ExceptionTranslationFilter@1a4cbcc6, org.springframework.security.web.access.intercept.AuthorizationFilter@26f480c6]
+17:05:49.435 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+17:05:49.959 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+17:05:49.991 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+17:05:50.152 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+17:05:50.153 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+17:05:50.154 [main] INFO  - Starting service [Tomcat]
+17:05:50.154 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:05:50.274 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:05:50.274 [main] INFO  - Root WebApplicationContext: initialization completed in 277 ms
+17:05:50.294 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:05:50.349 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+17:05:50.358 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+17:05:50.381 [main] INFO  - Started Application in 19.579 seconds (process running for 22.661)
+17:07:02.296 [http-nio-8080-exec-1] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:07:02.301 [http-nio-8080-exec-1] INFO  - Initializing Servlet 'dispatcherServlet'
+17:07:02.315 [http-nio-8080-exec-1] INFO  - Completed initialization in 12 ms
+17:38:47.261 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+17:38:47.475 [main] INFO  - Starting Application using Java 19.0.2 with PID 5303 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+17:38:47.477 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+17:38:50.997 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+17:38:51.075 [main] INFO  - Finished Spring Data repository scanning in 65 ms. Found 0 Reactive Cassandra repository interfaces.
+17:38:51.083 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+17:38:51.113 [main] INFO  - Finished Spring Data repository scanning in 29 ms. Found 1 Cassandra repository interfaces.
+17:38:52.395 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+17:38:52.428 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+17:38:52.437 [main] INFO  - Starting service [Tomcat]
+17:38:52.437 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:38:52.673 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:38:52.673 [main] INFO  - Root WebApplicationContext: initialization completed in 5028 ms
+17:38:55.034 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+17:38:56.888 [s0-admin-0] INFO  - Using native clock for microsecond precision
+17:38:57.760 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:38:58.315 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:38:59.880 [main] WARN  - 
+
+Using generated security password: 26b6d54e-0a51-443e-8a48-b066425d8d7c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+17:39:00.312 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e9d7366, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20914835, org.springframework.security.web.context.SecurityContextHolderFilter@a240452, org.springframework.security.web.header.HeaderWriterFilter@4c000cc4, org.springframework.web.filter.CorsFilter@615c4ea4, org.springframework.security.web.authentication.logout.LogoutFilter@74619273, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a4cbcc6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d5048d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@417446d9, org.springframework.security.web.access.ExceptionTranslationFilter@2b80497f, org.springframework.security.web.access.intercept.AuthorizationFilter@e7d0db2]
+17:39:01.344 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+17:39:01.833 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+17:39:01.871 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+17:39:02.040 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+17:39:02.041 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+17:39:02.042 [main] INFO  - Starting service [Tomcat]
+17:39:02.042 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:39:02.070 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:39:02.070 [main] INFO  - Root WebApplicationContext: initialization completed in 189 ms
+17:39:02.107 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:39:02.176 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+17:39:02.180 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+17:39:02.207 [main] INFO  - Started Application in 16.339 seconds (process running for 17.783)
+17:39:02.991 [RMI TCP Connection(3)-192.168.0.12] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:39:02.991 [RMI TCP Connection(3)-192.168.0.12] INFO  - Initializing Servlet 'dispatcherServlet'
+17:39:02.993 [RMI TCP Connection(3)-192.168.0.12] INFO  - Completed initialization in 2 ms
+17:40:43.166 [http-nio-8080-exec-2] ERROR - Ambiguous handler methods mapped for '/store/products/134': {public org.springframework.http.ResponseEntity ru.cft.shift.intensive.template.controller.ProductController.productDescription(), public org.springframework.http.ResponseEntity ru.cft.shift.intensive.template.controller.ProductController.product()}
+17:40:53.164 [http-nio-8080-exec-4] ERROR - Ambiguous handler methods mapped for '/store/products/124': {public org.springframework.http.ResponseEntity ru.cft.shift.intensive.template.controller.ProductController.productDescription(), public org.springframework.http.ResponseEntity ru.cft.shift.intensive.template.controller.ProductController.product()}
+17:43:09.681 [background-preinit] INFO  - HV000001: Hibernate Validator 8.0.0.Final
+17:43:09.880 [main] INFO  - Starting Application using Java 19.0.2 with PID 5346 (/Users/admin/backend-delivery/build/classes/java/main started by admin in /Users/admin/backend-delivery)
+17:43:09.898 [main] INFO  - No active profile set, falling back to 1 default profile: "default"
+17:43:12.500 [main] INFO  - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+17:43:12.550 [main] INFO  - Finished Spring Data repository scanning in 40 ms. Found 0 Reactive Cassandra repository interfaces.
+17:43:12.555 [main] INFO  - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+17:43:12.580 [main] INFO  - Finished Spring Data repository scanning in 24 ms. Found 1 Cassandra repository interfaces.
+17:43:13.667 [main] INFO  - Tomcat initialized with port(s): 8080 (http)
+17:43:13.699 [main] INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+17:43:13.702 [main] INFO  - Starting service [Tomcat]
+17:43:13.702 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:43:13.913 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:43:13.914 [main] INFO  - Root WebApplicationContext: initialization completed in 3890 ms
+17:43:15.229 [main] INFO  - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+17:43:16.636 [s0-admin-0] INFO  - Using native clock for microsecond precision
+17:43:17.239 [s0-io-2] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:43:17.660 [s0-io-3] WARN  - [] /127.0.0.1:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication
+17:43:19.285 [main] WARN  - 
+
+Using generated security password: 74dd55b1-0313-45b1-a506-0fba4f9e6265
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+17:43:19.621 [main] INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69d58731, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3275a47f, org.springframework.security.web.context.SecurityContextHolderFilter@454e9d65, org.springframework.security.web.header.HeaderWriterFilter@35d114f4, org.springframework.web.filter.CorsFilter@1b5af65b, org.springframework.security.web.authentication.logout.LogoutFilter@56402642, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6807989e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37e491e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e0163cb, org.springframework.security.web.access.ExceptionTranslationFilter@63d3c9dc, org.springframework.security.web.access.intercept.AuthorizationFilter@57bd9c2b]
+17:43:20.470 [main] WARN  - Endpoint ID 'swagger-ui' contains invalid characters, please migrate to a valid format.
+17:43:20.910 [main] INFO  - Starting ProtocolHandler ["http-nio-8080"]
+17:43:20.938 [main] INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+17:43:21.060 [main] INFO  - Tomcat initialized with port(s): 9090 (http)
+17:43:21.061 [main] INFO  - Initializing ProtocolHandler ["http-nio-9090"]
+17:43:21.062 [main] INFO  - Starting service [Tomcat]
+17:43:21.062 [main] INFO  - Starting Servlet engine: [Apache Tomcat/10.1.10]
+17:43:21.093 [main] INFO  - Initializing Spring embedded WebApplicationContext
+17:43:21.094 [main] INFO  - Root WebApplicationContext: initialization completed in 149 ms
+17:43:21.115 [main] INFO  - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:43:21.213 [main] INFO  - Starting ProtocolHandler ["http-nio-9090"]
+17:43:21.218 [main] INFO  - Tomcat started on port(s): 9090 (http) with context path ''
+17:43:21.270 [main] INFO  - Started Application in 12.624 seconds (process running for 14.793)
+17:43:21.912 [RMI TCP Connection(4)-192.168.0.12] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:43:21.914 [RMI TCP Connection(4)-192.168.0.12] INFO  - Initializing Servlet 'dispatcherServlet'
+17:43:21.918 [RMI TCP Connection(4)-192.168.0.12] INFO  - Completed initialization in 3 ms
