@@ -23,7 +23,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @Validated
 @RestController
 //@CrossOrigin(origins = "*")
-@RequestMapping("user")
+@RequestMapping("hotel")
 @Tag(name = "api.user.tag.name", description = "api.user.tag.description")
 public class UserController {
   private final UsersService usersService;
@@ -38,7 +38,7 @@ public class UserController {
       @ApiResponse(responseCode = "200", description = "api.user.users.api-responses.200.description"),
       @ApiResponse(responseCode = "500", description = "api.server.error", content = {@Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = ErrorControllerAdvice.ErrorResponse.class))})
   })
-  @GetMapping("list")
+  @GetMapping("user/list")
   public ResponseEntity<List<UsernameDto>> list() {
     return ResponseEntity.ok(this.usersService.list());
   }
@@ -48,7 +48,7 @@ public class UserController {
       @ApiResponse(responseCode = "200", description = "api.user.create.api-responses.200.description"),
       @ApiResponse(responseCode = "500", description = "api.server.error", content = {@Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = ErrorControllerAdvice.ErrorResponse.class))})
   })
-  @PostMapping()
+  @PostMapping("user")
   public ResponseEntity<UsernameDto> createUser(@RequestBody @Valid UserDto user) {
     return ResponseEntity.ok(this.usersService.create(user));
   }
@@ -59,7 +59,7 @@ public class UserController {
       @ApiResponse(responseCode = "404", description = "api.user.delete.api-responses.404.description", content = {@Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = ErrorControllerAdvice.ErrorResponse.class))}),
       @ApiResponse(responseCode = "500", description = "api.server.error", content = {@Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = ErrorControllerAdvice.ErrorResponse.class))})
   })
-  @DeleteMapping("{username}")
+  @DeleteMapping("user/{username}")
   public ResponseEntity<Void> deleteUser(@PathVariable @Size(min = 3, max = 50) String username) {
     this.usersService.delete(username);
     return ResponseEntity.ok().build();
@@ -71,7 +71,7 @@ public class UserController {
       @ApiResponse(responseCode = "404", description = "api.user.get.api-responses.404.description", content = {@Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = ErrorControllerAdvice.ErrorResponse.class))}),
       @ApiResponse(responseCode = "500", description = "api.server.error", content = {@Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = ErrorControllerAdvice.ErrorResponse.class))})
   })
-  @GetMapping("{username}")
+  @GetMapping("user/{username}")
   public ResponseEntity<UserDto> getUser(@PathVariable @Size(min = 3, max = 50) String username) {
     return ResponseEntity.ok(this.usersService.findByUsername(username));
   }

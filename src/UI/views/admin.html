@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Управление номерами в отеле</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Управление номерами в отеле</h2>
+
+<form action="http://localhost:8080/admin" method="post">
+    <label for="roomNumber">Номер комнаты:</label>
+    <input type="text" id="roomNumber" name="roomNumber" required>
+    <label for="roomDescription">Описание номера:</label>
+    <input type="text" id="roomDescription" name="roomDescription" required>
+    <label for="roomType">Тип номера:</label>
+    <input type="text" id="roomType" name="roomType" required>
+    <label for="pricePerNight">Цена номера:</label>
+    <input type="text" id="pricePerNight" name="pricePerNight" required>
+
+    <label for="status">Статус:</label>
+    <select id="status" name="status" required>
+        <option value="free">Свободен</option>
+        <option value="occupied">Занят</option>
+    </select>
+
+<!--    <label for="checkInDate">Дата заезда (для занятых номеров):</label>-->
+<!--    <input type="date" id="checkInDate" name="checkInDate">-->
+
+<!--    <label for="checkOutDate">Дата выезда (для занятых номеров):</label>-->
+<!--    <input type="date" id="checkOutDate" name="checkOutDate">-->
+
+    <button type="submit">Добавить/Редактировать номер</button>
+
+</form>
+
+<hr>
+
+<h2>Получение информации о номерах в отеле</h2>
+
+<form action="http://localhost:8080/admin" method="post">
+    <button type="submit" name="getFreeRooms">Получить свободные номера</button>
+    <button type="submit" name="getOccupiedRooms">Получить занятые номера</button>
+</form>
+
+<hr>
+
+<h2>Получение броней по отелю на дату</h2>
+
+<form action="http://localhost:8080/admin" method="post">
+    <label for="reservationDate">Дата бронирования:</label>
+    <input type="date" id="reservationDate" name="reservationDate" required>
+
+    <button type="submit">Получить брони</button>
+</form>
+
+
+<h1 align="center">Отель </h1>
+<ul id="userList"></ul>
+<div align="center">
+    <h2>Add User</h2>
+    <form id="userForm" action="http://localhost:8080/hotel/user" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br/><br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br/><br/>
+        <label for="roles">Role:</label>
+        <input type="text" id="roles" name="roles" required>
+        <br/><br/>
+        <button type="button" onclick="addUser()">Add User</button>
+    </form>
+</div>
+
+<script>
+    function addUser() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var roles = document.getElementById("roles").value.split(',');
+
+        var data = {
+            "username": username,
+            "password": password,
+            "roles": roles
+        };
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://localhost:8080/hotel/user", true);
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhr.send(JSON.stringify(data));
+
+        xhr.onload = function () {
+            if (xhr.status == 200) {
+                alert("User added successfully!");
+            } else {
+                alert("Error adding user. Status: " + xhr.status);
+            }
+        };
+    }
+</script>
+</body>
+</html>
